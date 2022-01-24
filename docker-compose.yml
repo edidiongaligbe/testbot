@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  oda-cc-ciaracs:
+    build: .
+    image: "oda-cc-ciaracs:1.0"
+    container_name: "oda-cc-ciaracs"
+    command: "npm start"
+    ports:
+      - 3000:3000    
